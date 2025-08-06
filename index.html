@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wdth=device-width, initial-scale=1.0">
+    <title>Meu Mini Site Pessoal - [Ana Clara💙]</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-principal">Ola, eu sou Ana Clara💙!</h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="#">inicio</a></li>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mim" class="intro-section">
+            <h2>Sobre Mim💕</h2>
+            <img src="aninha.jpg" alt="Foto de [Ana Clara]" width="200" class="foto-perfil">
+            <p>Este é o meu mini site pessoal. Aqui você encontrará um pouco de mim e meus interesses.</p>
+            <hr>
+            <p>Estou aprendendo <strong>HTML</strong> e <em>CSS</em> e estou animado(a) para criar meus projetos!</p>
+            <p class="paragrafo-destaque">Este parágrafo é um destaque especial para mostrar as novas funcionalidades que estou aprendendo!</p>
+            <div style="clear: both;"></div>
+        </section>
+
+        <section class="link-e-listas">
+            <h2>Links Interessantes📌</h2>
+            <p>Visite meu <a href="https://github.com/seuperfil" target="_blank">Github</a>!</p>
+            <p>Acompanhe meu progresso no <a href="https://linkedin.com/in/seuperfil" target="blank">LinkedIn</a>.</p>
+
+            <h2>Meus Hobbies🤙🏻</h2>
+            <ul>
+                <li>Praticar exercícios fisicos🏋🏻‍♂️</li>
+                <li>Desenhar🎨</li>
+                <li>Jogar Truco🃏</li>
+                <li>Viajar e conhecer lugares novos✈</li>
+            </ul>
+
+            <h2>Filmes Favoritos🎬</h2>
+            <ol>
+                <li>Coraline</li>
+                <li>Alice no pais das maravilhas</li>
+                <li>Enrolados</li>
+                <li>Zootopia</li>
+            </ol>
+        </section>
+
+        <section id="habilidades">
+            <h2>Minhas Habilidades💻</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>Nivel</th>
+                        <th>Interesse</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Basico/Intermediario</td>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Iniciante</td>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <td>Banco de Dados</td>
+                        <td>Iniciante</td>
+                        <td>Medio</td>
+                    </tr>
+                    <tr>
+                        <td>Back-End (Mode.js)</td>
+                        <td>Introducao</td>
+                        <td>Alto</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+      <section id="interesses">
+            <h2>Meus Interesses🧠</h2>
+            <div class="interesses-container">
+                <div class="interesse-item">
+                    <h3>Tecnologia e Programação</h3>
+                    <p>Adoro aprender sobre novas linguagens de programação, frameworks e o futuro da tecnologia.</p>
+                </div>
+                <div class="interesse-item destaque-interesse">
+                    <h3>Música e Artes</h3>
+                    <p>Gosto de ouvir diversos gêneros musicais, além de gostar bastante de desenhar.</p>
+                </div>
+                <div class="interesse-item">
+                    <h3>Viagens e Culturas</h3>
+                    <p>Explorar novos lugares, conhecer diferentes culturas e provar comidas típicas é uma paixão.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato📧</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto">
+                        <option value="">Selecione um assunto</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="oportunidade">Oportunidade de Trabalho</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="6"
+                        placeholder="Digite sua mensagem aqui..."></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ana Clara. Todos os direitos reservados.</p>
+        <p>Desenvolvido com ❤️ e muito aprendizado de HTML e CSS! Espero que tenham gostado!</p>
+    </footer>
+</body>
+
+</html>
